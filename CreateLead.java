@@ -25,3 +25,5 @@ public class CreateLeadTask {
         driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("santhosh.r@tickingminds.com");
         driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("6380079111");
         driver.findElement(By.name("submitButton")).click();
+    }
+}
