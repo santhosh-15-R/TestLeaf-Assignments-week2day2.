@@ -22,8 +22,8 @@ public class UpdateLeadTask {
         driver.findElement(By.id("createLeadForm_companyName")).sendKeys("TesLeaf");
         driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Santhosh");
         driver.findElement(By.id("createLeadForm_lastName")).sendKeys("R");
-        driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("santhoshsanty15022000@gmail.com");
-        driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("6380079031");
+        driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("santhosh.r@tickingmindscom");
+        driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("6380071111");
         driver.findElement(By.name("submitButton")).click();
         driver.findElement(By.linkText("Edit")).click();
         WebElement Update = driver.findElement(By.id("updateLeadForm_companyName"));
