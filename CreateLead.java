@@ -22,6 +22,6 @@ public class CreateLeadTask {
         driver.findElement(By.id("createLeadForm_companyName")).sendKeys("TesLeaf");
         driver.findElement(By.id("createLeadForm_firstName")).sendKeys("Santhosh");
         driver.findElement(By.id("createLeadForm_lastName")).sendKeys("R");
-        driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("santhoshsanty15022000@gmail.com");
-        driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("6380079031");
+        driver.findElement(By.id("createLeadForm_primaryEmail")).sendKeys("santhosh.r@tickingminds.com");
+        driver.findElement(By.id("createLeadForm_primaryPhoneNumber")).sendKeys("6380079111");
         driver.findElement(By.name("submitButton")).click();
